@@ -29,6 +29,9 @@ img{
 }
 .wrapper{
     width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 
     /*
         TODO:
@@ -38,9 +41,9 @@ img{
     */
 }
 #site-header{
-  background-image: url("../img/header-img.jpg");
-  background-size: cover;
-
+  background-image: url("img/header-img.jpg");
+  background: cover;
+  width: 100%;
 
     /*
         TODO
@@ -51,6 +54,7 @@ img{
     text-align: center;
     padding: 60px 0 120px 0;
     font-size: 4em;
+
 
     /*
         TODO:
@@ -115,7 +119,7 @@ main{
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
-    width: 75%;
+    flex: 2;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -126,7 +130,7 @@ aside{
     padding: 20px;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
-    display: flex;
+    flex: 1;
     /*
         TODO:
         - Flexbox: Set the starting width of this element

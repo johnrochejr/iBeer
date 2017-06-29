@@ -17,16 +17,20 @@ body{
     margin: 0;
     background-color: #eeebda;
 }
+
 h1, h2, h3{
     font-family: "Josefin Sans", sans-serif;
     margin-top: 0;
 }
+
 img{
-    max-width: 100%;
+    max-width: 50%;
     padding: 0;
     margin: 0;
     display: block;
-}
+    float: right;
+  }
+
 .wrapper{
     width: 1000px;
     margin: 0 auto;
@@ -120,6 +124,7 @@ main{
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     flex: 2;
+    margin-left: 2em;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -131,6 +136,7 @@ aside{
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     flex: 1;
+    margin-right: 3em;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -153,6 +159,7 @@ article{
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     padding: 20px;
     margin-bottom: 20px;
+
 }
 article h2{
     line-height: 1em;
@@ -171,6 +178,7 @@ article time{
     color: #666;
 }
 article img{
+  margin-left: 1em;
     /*
         TODO:
         - Float article images to the right
